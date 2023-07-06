@@ -1,0 +1,213 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(236, 235, 235);
+}
+/* HEADER ADMIN */
+
+.header-admin{
+    position: fixed;
+    background: rgb(35, 144, 91);
+    width: 101%;
+	height: 60px;
+	margin-left: -7px;
+	margin-right: 10px;
+	margin-top: -15%;
+}
+/* .corner-header li{
+    margin-left: 30px;
+	display:inline-block;
+	font-size: 20px;
+	margin-top: 5px;
+} */
+
+.logo-admin{
+    display: block;
+    margin-left: 10px;
+	margin-top: 4px;
+}
+
+.title-app{
+    margin-top: -55px;
+	margin-left: 30px;
+	color: #e0cdc3;
+	font-weight: 900;
+	font-size: 25px;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 10px;
+}
+
+.title-app:hover{
+    color:darkkhaki;
+    transition: 0.3s;
+}
+
+.navbar-admin{
+	margin-left: 400px;
+    margin-bottom: -20px;
+    margin-top: -53px;
+	padding: 0px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+/* MENU NAVBAR ADMIN */
+
+.corner-header{
+    background-color:white(44, 44, 44);
+	/* border: 1px solid black; */
+	color: Black;
+}
+
+.corner-header img{
+	width: 70px;
+	display: block;
+	margin-bottom: 10px;
+  	/* margin-right: auto; */
+}
+.corner-header h1{
+	margin:0px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+.corner-header ul li{
+	margin-left: 30px;
+	display:inline-block;
+	font-size: 16px;
+	margin-top: 5px;
+}
+.corner-header a{
+	color:rgb(243, 241, 241);
+	text-decoration: none;
+	transition: .3s;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.corner-header a:hover{
+    color: brown;
+}
+
+/* Profil dan Logout Navbar */
+
+.ikon-profil {
+    position:relative;
+    line-height:3;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    list-style-position:inside;
+    z-index: 2;
+}
+
+.ikon-profil img{
+    width: 40px;
+    float: right;
+    margin-right: 160px;
+    margin-top: -10px;
+}
+
+.dropdown li{
+    display: inline-block;
+}
+
+.dropdown{
+    color: burlywood;
+    float: right;
+    margin-right: -130px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -17px;
+    text-transform: capitalize;
+}
+
+.dropdown:hover .dropdown-child {
+    position: fixed;
+    display: block;
+	border-bottom: none;
+}
+
+.dropdown-child li:hover {
+	color: rgb(100, 89, 78);
+	width: 100px;
+}
+
+.dropdown-child {
+	position: relative;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0);
+	background-color: rgb(35, 144, 91);
+	width: 120px;
+	height: relative;	
+    margin-top: -10px;
+    list-style-type: none;
+    margin-left: -5px;
+}
+
+.dropdown-child li{
+    margin-top: -20px;
+    margin-bottom: -8px;
+}
+
+.dropdown-child a {
+	color: rgb(230, 202, 179) !important;
+	font-size: 18px;
+	margin-left: -15px;
+	text-align: left;
+    text-decoration: none;
+
+}
+
+.dropdown-child a:hover {
+    color: #3c3c3c !important;
+    margin-left: -15px;
+    text-align: left;
+}   
+
+/* FORM TAMBAH DATA */
+
+.form-konten{
+	margin-top: 230px;
+    margin-bottom: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.form-konten h2{
+    font-size: 30px;
+	margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-weight:bold; 
+    margin-top: -10px; 
+    color: rgb(55, 150, 125); 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.pad-tambah{
+    margin-top: -90px;
+    float: left;
+    height: 390px;
+    background-color: #ffffff;
+	text-align: center;
+	width: 40%;
+	background-size:cover;
+	background-position:0 -500px;
+	border: 1px solid black;
+	box-shadow:5px 5px 5px rgb(90, 89, 89);
+	padding: 50px;
+	margin-left: 29%;
+	margin-bottom: -10px;
+    border-left: 8px solid rgb(35, 144, 91);
+}
+.pad-tambah button:hover{
+	cursor: pointer;
+}
+
+.pad-tambah span{
+	color: brown;
+	font-weight: bold;
+}

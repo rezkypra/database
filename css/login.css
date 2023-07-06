@@ -1,0 +1,48 @@
+.body{
+	background: rgb(172, 167, 167);
+}
+
+.konten-login{
+	margin-top: 230px;
+    margin-bottom: 10px;
+	text-align: left;
+	width: 100%;
+}
+
+.konten-login h2{
+    font-size: 30px;
+    color: rgb(30, 144, 89);
+	margin-bottom: -5px;
+	margin-left: -50%;
+	margin-top: 20px;
+}
+.konten-login img{
+	float: left;
+	margin-left: 180px;
+	width: 25%;
+	margin-top: 10px;
+}
+.pad-login{
+    margin-top: -90px;
+    float: left;
+    height: 390px;
+    background-color: #6aebbea0;
+	text-align: center;
+	width: 30%;
+	background-size:cover;
+	background-position:0 -500px;
+	border-radius: 30px;
+	border: 1px solid black;
+	box-shadow:5px 5px 5px grey;
+	padding: 50px;
+	margin-left: 32%;
+	margin-bottom: -10px;
+}
+.pad-login button:hover{
+	cursor: pointer;
+}
+
+.pad-login span{
+	color: brown;
+	font-weight: bold;
+}

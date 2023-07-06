@@ -1,0 +1,430 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body{
+	
+	background-color: #f1f0f1;
+}
+
+/* HEADER */
+
+.topbar{
+	position:fixed;
+	/* border-radius: 25px; */
+	/* border: 2px solid black; */
+	/* box-shadow:5px 5px 5px grey; */
+	width: 101%;
+	background-color: #6cc6a2;
+	height: 60px;
+	margin-left: -7px;
+	margin-right: 10px;
+	margin-top: -10px;
+	z-index: 9999;
+}
+
+/* .judul h1,img{
+	display: inline-block;
+} */
+
+/* LOGO DINAS KALTIM */
+
+.logo{
+    width: 25%;
+    display: block;
+    margin-left: 10px;
+	margin-top: 5px;
+}
+
+
+/* JUDUL APLIKASI */
+
+.app{
+	margin-top: -45px;
+	margin-left: 20px;
+	color: #6a354d;
+	font-weight: bolder;
+	font-size: large;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+}
+
+/* MENU NAVBAR */
+
+.judul{
+	background-color:white(44, 44, 44);
+	/* border: 1px solid black; */
+	color: Black;
+}
+
+.navbar{
+	margin-left: 500px;
+    margin-bottom: -20px;
+    margin-top: -45px;
+	padding: 0px;
+}
+
+.judul img{
+	width: 70px;
+	display: block;
+	margin-bottom: 10px;
+  	/* margin-right: auto; */
+}
+.judul h1{
+	margin:0px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+
+.judul ul li{
+	margin-left: 30px;
+	display:inline-block;
+	font-size: 20px;
+	margin-top: 5px;
+}
+.judul a{
+	color:rgb(56, 53, 53);
+	text-decoration:none;
+	transition: .3s;
+	font-weight: 900;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.navbar a:hover{
+    border-bottom: 5px solid rgb(55, 107, 150);
+}
+
+/* DROPDOWN MENU BIDANG */
+
+.dropdown li{
+	display: inline-block;
+}
+
+.dropdown:hover .dropdown-child {
+	display: block;
+	border-bottom: none;
+}
+
+.dropdown-child li:hover {
+	color: rgb(100, 89, 78);
+	width: 450px;
+}
+
+.dropdown-child {
+	position: absolute;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	background-color: #6cc6a2;
+	width: 520px;
+	height: 70px;
+	
+	
+}
+
+.dropdown-child a {
+	color: #3c3c3c !important;
+	font-size: 13px;
+	margin-left: -65px;
+	width: 300px;
+	text-align: left;
+
+}
+
+.dropdown-child a:hover {
+	color: rgb(134, 119, 105) !important;
+	border-bottom: none;
+}
+/* BUTTON LOGIN */
+
+.logo-login{
+    width: 100px;
+    display: block;
+    float: right;
+	height: 5px;
+	margin-top: -10px;
+	margin-right: 20px;
+}
+.logo-login p{
+    margin-top: 5px;
+}
+
+.login{
+	float: right;
+	outline: 0;
+	width : 100px;
+	background-color: yellow;
+    height: 30px;
+    border-radius: 25px;
+    border: 1.5px solid black;
+    transition: .5s;
+}
+.login:hover {
+	background-color:rgba(192, 42, 202, 0.3);
+	cursor: pointer;
+}
+.login:active {
+	background-color:rgb(67, 56, 125);
+}
+
+/* KONTEN */
+
+.title-event{
+    width: 97%;
+    line-height: 2;
+	margin-top: -50px;
+	background-color: WHITE;
+    height:100%;
+	margin-left: 20px;
+	border-radius: 10px;
+    min-height: 150vh;
+}
+
+.title-event h2{
+    margin-top: 150px;
+    margin-left: 2%;
+    font-size: 40px;
+    color: rgb(28, 152, 102);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+	text-align: center;
+}
+
+.content-berita{
+	width: 90%;
+    margin-left: 32%;
+  }
+   
+  .isinya .col3{
+	margin-top: 0px;
+	/* margin-right: 34.9%; */ 
+	width: 45%;
+	margin-left: 0px;
+	/* background-color: rgb(36, 78, 55); */
+	background-color: #385e59;
+
+	border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+	box-shadow: 1px 1px 10px black;
+  }
+   
+.gambar img{
+	width: 45%;
+	box-sizing: border-box;
+	margin-left: 0px;
+	transition: transform .5s, filter 1.5s ease-in-out;
+    border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.gambar img:hover{
+	filter: grayscale(0);
+    transform: scale(1.1);
+}
+   
+  .judul-berita{
+	width: 100%;
+	box-sizing: border-box;
+	padding-bottom: 4px;
+	font-size: 20px;
+	font-weight: bolder;
+	color: whitesmoke;
+	text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+   
+.judul-berita:hover{
+    color: rgb(144, 150, 170);
+    transition: .3s;
+}
+  .tanggal{
+	color: whitesmoke;
+	text-align: right;
+    padding-bottom: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+   
+  .isiberita{
+	padding: 10px 15px 20px;
+	text-align: justify;
+    font-size: 14.5px;
+  }
+
+  /* FOOTER */
+
+.footer{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+.footer-distributed{
+	background-color: #385e59;
+	box-sizing: border-box;
+	width: 101%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 100px;
+	margin-left: -8.5px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* KIRI FOOTER */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* LOGO DINAS KALTIM DAN KEMENTRIAN INDUSTRI DI FOOTER */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* LINK FOOTER */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* FOOTER TENGAH */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	/* background-color:  #33383b; */
+	color: #ffffff;
+	font-size: 10px;
+	width: 15px;
+	height: 315px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center img{
+	width: 30px;
+	margin-top: 20px;
+}
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+	color: blanchedalmond;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	text-align: center;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+/* KANAN FOOTER */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 20px;
+	font-style: italic;
+	margin: 0;
+	margin-top: 30px;
+}
+
+.footer-distributed .footer-company-about:hover{
+	color:  #e6d4ca;
+	transition: 0.3s;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 20px;
+	align-content: center;
+	
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 50px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 30px;
+
+	margin-right: 3px;
+	margin-bottom: 1px;
+}

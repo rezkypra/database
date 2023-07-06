@@ -1,0 +1,29 @@
+a {
+	text-decoration: none;
+    color: #3f41bf;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.bg_slider:hover {
+    color: #c323fc;
+    cursor: pointer;
+    background-position: -50% 100%;
+}
+.act {
+    background: #54f785;
+    color: black;
+    border-radius: 10px;
+}
+.content h2{
+    margin-top: 150px;
+    margin-left: 5%;
+    font-size: 30px;
+}
+.content p{
+    padding: 5px 5px 5px 5px; 
+    background: #c323fc; 
+    color:white; 
+    width:20%; 
+    margin-left: 200px; 
+    border-radius: 10px;
+}
